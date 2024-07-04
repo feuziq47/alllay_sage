@@ -1,6 +1,9 @@
 #!/bin/bash
+
 set -x
- 
+
+nohup bash <<'EOF' &
+
 echo "## Step 1"
 yum -y update
 yum -y upgrade
@@ -12,6 +15,7 @@ cd leptonica-1.84.1
 ./configure
 make
 make install
+
  
 echo "## Step 2"
 cd ~
@@ -37,3 +41,7 @@ wget https://github.com/tesseract-ocr/tessdata/raw/main/kor_vert.traineddata
 echo "## Step 4"
 echo "export TESSDATA_PREFIX=/usr/local/share/tessdata" >> ~/.bash_profile
 echo "export TESSDATA_PREFIX=/usr/local/share/tessdata" >> /home/ec2-user/.bash_profile
+
+echo "## Finished"
+
+EOF
