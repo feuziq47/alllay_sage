@@ -10,18 +10,18 @@ AWS Generative AI 및 Foundation 모델에 대한 한글 워크샵 & 예제 모�
 
 - jumpstart : SageMaker JumpStart와 관련된 예제로서 Model Tuner 또는 Model Consumer로서의 역할자로서 활용할 수 있는 예제를 제공합니다.
     - text-to-image
-        - [[model_consumer]stable_diffusion_inference.ipynb](./jumpstart/text_to_image/[model_consumer]stable_diffusion_inference.ipynb)
-        - [[model_tuner]stable_diffusion_finetune.ipynb](./jumpstart/text_to_image/[model_tuner]stable_diffusion_finetune.ipynb)
+        - [[model_consumer]stable_diffusion_inference.ipynb](https://github.com/aws-samples/aws-ai-ml-workshop-kr/blob/master/genai/jumpstart/text_to_image/%5Bmodel_consumer%5Dstable_diffusion_inference.ipynb)
+        - [[model_tuner]stable_diffusion_finetune.ipynb](https://github.com/aws-samples/aws-ai-ml-workshop-kr/blob/master/genai/jumpstart/text_to_image/%5Bmodel_tuner%5Dstable_diffusion_finetune.ipynb)
     - text-to-text : 
-        - [[model_consumer]flan_t5_xl_in_context_learning_ml_p3_2xl.ipynb](./jumpstart/text_to_text/[model_consumer]flan_t5_xl_in_context_learning_ml_p3_2xl.ipynb) : Flan-t5-xl 을 이용한 n-shot learning 수행
-        - [[model_consumer]kullm_polyglot_12_8b_in_context_learning_ml_g5_12xl.ipynb](./jumpstart/text_to_text/[model_consumer]kullm_polyglot_12_8b_in_context_learning_ml_g5_12xl.ipynb) : 한국어 모델 polyglot-12.8B 모델을 이용한 n-shot learning 수행 (text-generation-inference 이용)
-        - [[model_consumer]flan_t5_xl_cot_prompting.ipynb](./jumpstart/text_to_text/[model_consumer]flan_t5_xl_cot_prompting.ipynb) : Flan-t5-xl 을 이용한 COT 수행
-        - [[model_tuner]flan_t5_xl_instruction_ml_p3_16xl.ipynb](./jumpstart/text_to_text/[model_tuner]flan_t5_xl_instruction_ml_p3_16xl.ipynb) : flan-t5-xl을 이용한 instruction fine-tuning 수행
-        - [[model_tuner]flan_t5_xl_with_LoRA_ml_g5_2xl.ipynb](./jumpstart/text_to_text/[model_tuner]flan_t5_xl_with_LoRA_ml_g5_2xl.ipynb) : flan-t5-xl을 이용한 PEFT fine-tuning 수행
+        - [[model_consumer]flan_t5_xl_in_context_learning_ml_p3_2xl.ipynb](https://github.com/aws-samples/aws-ai-ml-workshop-kr/blob/master/genai/jumpstart/text_to_text/%5Bmodel_consumer%5Dflan_t5_xl_in_context_learning_ml_p3_2xl.ipynb) : Flan-t5-xl 을 이용한 n-shot learning 수행
+        - [[model_consumer]kullm_polyglot_12_8b_in_context_learning_ml_g5_12xl.ipynb](https://github.com/aws-samples/aws-ai-ml-workshop-kr/blob/master/genai/jumpstart/text_to_text/%5Bmodel_consumer%5Dkullm_polyglot_12_8b_in_context_learning_ml_g5_12xl.ipynb) : 한국어 모델 polyglot-12.8B 모델을 이용한 n-shot learning 수행 (text-generation-inference 이용)
+        - [[model_consumer]flan_t5_xl_cot_prompting.ipynb](https://github.com/aws-samples/aws-ai-ml-workshop-kr/blob/master/genai/jumpstart/text_to_text/%5Bmodel_consumer%5Dflan_t5_xl_cot_prompting.ipynb) : Flan-t5-xl 을 이용한 COT 수행
+        - [[model_tuner]flan_t5_xl_instruction_ml_p3_16xl.ipynb](https://github.com/aws-samples/aws-ai-ml-workshop-kr/blob/master/genai/jumpstart/text_to_text/%5Bmodel_tuner%5Dflan_t5_xl_instruction_ml_p3_16xl.ipynb) : flan-t5-xl을 이용한 instruction fine-tuning 수행
+        - [[model_tuner]flan_t5_xl_with_LoRA_ml_g5_2xl.ipynb](https://github.com/aws-samples/aws-ai-ml-workshop-kr/blob/master/genai/jumpstart/text_to_text/%5Bmodel_tuner%5Dflan_t5_xl_with_LoRA_ml_g5_2xl.ipynb) : flan-t5-xl을 이용한 PEFT fine-tuning 수행
 - bedrock : WIP
 
 
-<img src="./jumpstart/text_to_text/figures/model_tune_consumer.png"  width="900" height="470">
+<img src="./aws-gen-ai-kr/imgs/model_tune_consumer.png"  width="900" height="470">
 
 
 
@@ -51,6 +51,6 @@ AWS Generative AI 및 Foundation 모델에 대한 한글 워크샵 & 예제 모�
 
 위 자료들 중 일부를 이용하여 아래와 같은 playground를 구성할 수 있습니다.
 
-<img src="./jumpstart/text_to_text/figures/streamlit-playground.png"  width="500" height="470">
+<img src="./aws-gen-ai-kr/imgs/streamlit-playground.png"  width="500" height="470">
 
 ---
